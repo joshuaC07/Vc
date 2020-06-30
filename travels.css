@@ -1,0 +1,77 @@
+body{
+	font-family: "Times New Roman", serif;
+	background: gray;
+}
+.button {
+	margin: 40px 20px;
+}
+.btn-one {
+	display: inline-block;
+	background-color: darkorange;
+	font-family: "Times New Roman", serif;
+	border: 5px solid green;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.btn-one:hover
+{
+	background-color: #00ffff;
+	transition: all 0.5s ease-in;
+}
+.center{
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin: auto;
+	position: absolute;
+	color: #ffff00;
+	text-align: center;
+}
+.center h1{
+	text-align: center;
+	font-size: 70px;
+	transform: uppercase;
+	margin-top: 0px;
+	letter-spacing: 8px;
+	animation: text 3s 1;
+}
+@keyframes text{
+	5%{
+		color: green;
+		margin-botoom: -10px;
+	}
+	50%{
+		letter-spacing: 25px;
+		margin-bottom: -10px;
+	}
+
+}
+.center p{
+	font-size: 30px;
+	padding: 10px;
+	background-color: #9999ff;
+}
+.container {
+	max-width: 1200px;
+	margin-top: 250px;
+	margin-left: 65px;
+	background: #f2f2f2;
+	overflow: auto;
+}
+.gallery{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 387px;
+}
+.gallery img{
+	width: 375px;
+	height: 500px;
+	padding: 5px;
+}
+.desc{
+	padding: 20px;
+	text-align: center;
+}

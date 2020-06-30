@@ -1,0 +1,75 @@
+body{
+	font-family: "Times New Roman", serif;
+	background: #00ffff;
+}
+.button {
+	margin: 40px 20px;
+}
+.btn-one {
+	background-color: darkorange;
+	font-family: "Times New Roman", serif;
+	border: 5px solid green;
+	padding: 10px 30px;
+	text-decoration: none;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.btn-one:hover
+{
+	background-color: white;
+	transition: all 0.5s ease-in;
+}
+.center{
+	display: inline-block;
+	width: auto;
+	height: auto;
+	position: absolute;
+	text-align: center;
+}
+.center h1{
+	font-size: 70px;
+	text-align: center;
+	color: ff0000;
+	margin-top: 0px;
+	margin-left: 200px;
+	margin-right: 350px;
+	border: 5px solid green;
+	border-style: dashed;
+	background: white;
+	padding: 10px 30px;
+}
+.social-icons{
+	width: 100%;
+	height: 100%;
+	margin-top: 150px;
+}
+.social-icons ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.social-icons ul li {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 50px 30px;
+	border-radius: 50px;
+	background-color: #32CD32;
+	box-shadow: 2px 5px 3px 3px #dcdde1;
+}
+.social-icons ul li a{
+	color: #272727;
+	font-size: 20px;
+}
+.social-icons ul li a i{
+	line-height: 90px;
+}
+.social-icons ul li:hover{
+	transition: o.3s linear;
+	transform: scale(1.4);
+	background: red;
+}
+
+.social-icons ul li:hover a{
+	color: white;
+}
